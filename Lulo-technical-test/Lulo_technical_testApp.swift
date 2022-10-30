@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct Lulo_technical_testApp: App {
+    
+    init() {
+        if #available(iOS 15, *) {
+            let appearance = UITabBarAppearance()
+            UITabBar.appearance().scrollEdgeAppearance = appearance
+        }
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                GenerationsView()
+            }
         }
     }
 }

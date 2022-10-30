@@ -8,23 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		8060FAB1290C9E8700A413C4 /* Lulo_technical_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAB0290C9E8700A413C4 /* Lulo_technical_testApp.swift */; };
-		8060FAB3290C9E8700A413C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAB2290C9E8700A413C4 /* ContentView.swift */; };
 		8060FAB5290C9E8800A413C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8060FAB4290C9E8800A413C4 /* Assets.xcassets */; };
 		8060FAB9290C9E8800A413C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8060FAB8290C9E8800A413C4 /* Preview Assets.xcassets */; };
-		8060FAC3290C9E8800A413C4 /* Lulo_technical_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAC2290C9E8800A413C4 /* Lulo_technical_testTests.swift */; };
-		8060FACD290C9E8800A413C4 /* Lulo_technical_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FACC290C9E8800A413C4 /* Lulo_technical_testUITests.swift */; };
-		8060FACF290C9E8800A413C4 /* Lulo_technical_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FACE290C9E8800A413C4 /* Lulo_technical_testUITestsLaunchTests.swift */; };
+		8060FADD290C9F0600A413C4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8060FADC290C9F0600A413C4 /* Alamofire */; };
+		8060FAE0290C9F8900A413C4 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FADF290C9F8900A413C4 /* NetworkService.swift */; };
+		8060FAE3290C9FE500A413C4 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAE2290C9FE500A413C4 /* URLSession+Extension.swift */; };
+		8060FAE6290CA0A400A413C4 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAE5290CA0A400A413C4 /* APIRequest.swift */; };
+		8060FAE8290CA0CA00A413C4 /* APIContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAE7290CA0CA00A413C4 /* APIContentType.swift */; };
+		8060FAEA290CA10D00A413C4 /* NetworkServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAE9290CA10D00A413C4 /* NetworkServiceType.swift */; };
+		8060FAEC290CA26E00A413C4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAEB290CA26E00A413C4 /* Pokemon.swift */; };
+		8060FAEF290CA34D00A413C4 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 8060FAEE290CA34D00A413C4 /* Resolver */; };
+		8060FAF2290CA3C200A413C4 /* PokemonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAF1290CA3C200A413C4 /* PokemonRepository.swift */; };
+		8060FAF5290CA45E00A413C4 /* PokemonRepositoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAF4290CA45E00A413C4 /* PokemonRepositoryType.swift */; };
+		8060FAF7290CA7CF00A413C4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAF6290CA7CF00A413C4 /* Constants.swift */; };
+		8060FAFA290CAA8600A413C4 /* App+Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAF9290CAA8600A413C4 /* App+Injection.swift */; };
+		8060FAFD290CABD600A413C4 /* GenerationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAFC290CABD600A413C4 /* GenerationsView.swift */; };
+		8060FB00290CACA600A413C4 /* GenerationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FAFF290CACA600A413C4 /* GenerationCell.swift */; };
+		8060FB03290CB01400A413C4 /* PokemonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB02290CB01400A413C4 /* PokemonsViewModel.swift */; };
+		8060FB06290CB0AB00A413C4 /* GetPokemonsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB05290CB0AB00A413C4 /* GetPokemonsInteractor.swift */; };
+		8060FB08290CB0E900A413C4 /* AnyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB07290CB0E900A413C4 /* AnyInteractor.swift */; };
+		8060FB0A290CB13700A413C4 /* GenerationParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB09290CB13700A413C4 /* GenerationParams.swift */; };
+		8060FB0C290CB2D000A413C4 /* PokemonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB0B290CB2D000A413C4 /* PokemonsView.swift */; };
+		8060FB0E290CB33C00A413C4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB0D290CB33C00A413C4 /* LoadingView.swift */; };
+		8060FB10290CB35B00A413C4 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB0F290CB35B00A413C4 /* LottieView.swift */; };
+		8060FB13290CB3B900A413C4 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8060FB12290CB3B900A413C4 /* Lottie */; };
+		8060FB15290CB3E200A413C4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB14290CB3E200A413C4 /* ErrorView.swift */; };
+		8060FB18290CB45300A413C4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8060FB17290CB45300A413C4 /* Kingfisher */; };
+		8060FB1A290CB46B00A413C4 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB19290CB46B00A413C4 /* PokemonCell.swift */; };
+		8060FB1E290CB4A000A413C4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB1D290CB4A000A413C4 /* Utils.swift */; };
+		8060FB20290CB50400A413C4 /* PokemonSmallImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB1F290CB50400A413C4 /* PokemonSmallImage.swift */; };
+		8060FB23290CB87300A413C4 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 8060FB22290CB87300A413C4 /* loading.json */; };
+		8060FB25290CB9B600A413C4 /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB24290CB9B600A413C4 /* PokemonDetail.swift */; };
+		8060FB27290CBA0800A413C4 /* PokemonLargeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB26290CBA0800A413C4 /* PokemonLargeImage.swift */; };
+		8060FB29290CBA3000A413C4 /* PokemonGeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB28290CBA3000A413C4 /* PokemonGeneralInfo.swift */; };
+		8060FB2B290CBA6800A413C4 /* PokemonMoves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB2A290CBA6800A413C4 /* PokemonMoves.swift */; };
+		8060FB2D290CBA8800A413C4 /* PokemonStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB2C290CBA8800A413C4 /* PokemonStats.swift */; };
+		8060FB2F290CCC2500A413C4 /* LargePokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8060FB2E290CCC2500A413C4 /* LargePokemonCell.swift */; };
+		80BF6586290ED224001744C5 /* NetworkServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF6585290ED224001744C5 /* NetworkServiceMock.swift */; };
+		80BF6589290ED30D001744C5 /* PokemonRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF6588290ED30D001744C5 /* PokemonRepositoryTest.swift */; };
+		80BF658C290ED388001744C5 /* NetworkServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF658B290ED388001744C5 /* NetworkServiceStub.swift */; };
+		80BF658E290ED4C5001744C5 /* TestsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF658D290ED4C5001744C5 /* TestsConstants.swift */; };
+		80BF6590290EDB47001744C5 /* PokemonRepositoryStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF658F290EDB47001744C5 /* PokemonRepositoryStub.swift */; };
+		80BF6593290EDC0D001744C5 /* GetPokemonsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF6592290EDC0D001744C5 /* GetPokemonsInteractorTest.swift */; };
+		80BF6596290EDE44001744C5 /* PokemonsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF6595290EDE44001744C5 /* PokemonsViewModelTest.swift */; };
+		80BF6598290EDE99001744C5 /* GetPokemonsInteractorStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF6597290EDE99001744C5 /* GetPokemonsInteractorStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8060FABF290C9E8800A413C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8060FAA5290C9E8700A413C4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8060FAAC290C9E8700A413C4;
-			remoteInfo = "Lulo-technical-test";
-		};
-		8060FAC9290C9E8800A413C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8060FAA5290C9E8700A413C4 /* Project object */;
 			proxyType = 1;
@@ -36,15 +67,48 @@
 /* Begin PBXFileReference section */
 		8060FAAD290C9E8700A413C4 /* Lulo-technical-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lulo-technical-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8060FAB0290C9E8700A413C4 /* Lulo_technical_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lulo_technical_testApp.swift; sourceTree = "<group>"; };
-		8060FAB2290C9E8700A413C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8060FAB4290C9E8800A413C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8060FAB6290C9E8800A413C4 /* Lulo_technical_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lulo_technical_test.entitlements; sourceTree = "<group>"; };
 		8060FAB8290C9E8800A413C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8060FABE290C9E8800A413C4 /* Lulo-technical-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lulo-technical-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8060FAC2290C9E8800A413C4 /* Lulo_technical_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lulo_technical_testTests.swift; sourceTree = "<group>"; };
-		8060FAC8290C9E8800A413C4 /* Lulo-technical-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lulo-technical-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8060FACC290C9E8800A413C4 /* Lulo_technical_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lulo_technical_testUITests.swift; sourceTree = "<group>"; };
-		8060FACE290C9E8800A413C4 /* Lulo_technical_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lulo_technical_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8060FADF290C9F8900A413C4 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8060FAE2290C9FE500A413C4 /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		8060FAE5290CA0A400A413C4 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		8060FAE7290CA0CA00A413C4 /* APIContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIContentType.swift; sourceTree = "<group>"; };
+		8060FAE9290CA10D00A413C4 /* NetworkServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceType.swift; sourceTree = "<group>"; };
+		8060FAEB290CA26E00A413C4 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8060FAF1290CA3C200A413C4 /* PokemonRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepository.swift; sourceTree = "<group>"; };
+		8060FAF4290CA45E00A413C4 /* PokemonRepositoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepositoryType.swift; sourceTree = "<group>"; };
+		8060FAF6290CA7CF00A413C4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8060FAF9290CAA8600A413C4 /* App+Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App+Injection.swift"; sourceTree = "<group>"; };
+		8060FAFC290CABD600A413C4 /* GenerationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationsView.swift; sourceTree = "<group>"; };
+		8060FAFF290CACA600A413C4 /* GenerationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationCell.swift; sourceTree = "<group>"; };
+		8060FB02290CB01400A413C4 /* PokemonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewModel.swift; sourceTree = "<group>"; };
+		8060FB05290CB0AB00A413C4 /* GetPokemonsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPokemonsInteractor.swift; sourceTree = "<group>"; };
+		8060FB07290CB0E900A413C4 /* AnyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyInteractor.swift; sourceTree = "<group>"; };
+		8060FB09290CB13700A413C4 /* GenerationParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationParams.swift; sourceTree = "<group>"; };
+		8060FB0B290CB2D000A413C4 /* PokemonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsView.swift; sourceTree = "<group>"; };
+		8060FB0D290CB33C00A413C4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8060FB0F290CB35B00A413C4 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		8060FB14290CB3E200A413C4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8060FB19290CB46B00A413C4 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		8060FB1D290CB4A000A413C4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8060FB1F290CB50400A413C4 /* PokemonSmallImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSmallImage.swift; sourceTree = "<group>"; };
+		8060FB22290CB87300A413C4 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		8060FB24290CB9B600A413C4 /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
+		8060FB26290CBA0800A413C4 /* PokemonLargeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonLargeImage.swift; sourceTree = "<group>"; };
+		8060FB28290CBA3000A413C4 /* PokemonGeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonGeneralInfo.swift; sourceTree = "<group>"; };
+		8060FB2A290CBA6800A413C4 /* PokemonMoves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonMoves.swift; sourceTree = "<group>"; };
+		8060FB2C290CBA8800A413C4 /* PokemonStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonStats.swift; sourceTree = "<group>"; };
+		8060FB2E290CCC2500A413C4 /* LargePokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargePokemonCell.swift; sourceTree = "<group>"; };
+		80BF6585290ED224001744C5 /* NetworkServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceMock.swift; sourceTree = "<group>"; };
+		80BF6588290ED30D001744C5 /* PokemonRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepositoryTest.swift; sourceTree = "<group>"; };
+		80BF658B290ED388001744C5 /* NetworkServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceStub.swift; sourceTree = "<group>"; };
+		80BF658D290ED4C5001744C5 /* TestsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsConstants.swift; sourceTree = "<group>"; };
+		80BF658F290EDB47001744C5 /* PokemonRepositoryStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRepositoryStub.swift; sourceTree = "<group>"; };
+		80BF6592290EDC0D001744C5 /* GetPokemonsInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPokemonsInteractorTest.swift; sourceTree = "<group>"; };
+		80BF6595290EDE44001744C5 /* PokemonsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewModelTest.swift; sourceTree = "<group>"; };
+		80BF6597290EDE99001744C5 /* GetPokemonsInteractorStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPokemonsInteractorStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +116,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8060FB18290CB45300A413C4 /* Kingfisher in Frameworks */,
+				8060FAEF290CA34D00A413C4 /* Resolver in Frameworks */,
+				8060FADD290C9F0600A413C4 /* Alamofire in Frameworks */,
+				8060FB13290CB3B900A413C4 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8060FABB290C9E8800A413C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8060FAC5290C9E8800A413C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8060FAAF290C9E8700A413C4 /* Lulo-technical-test */,
-				8060FAC1290C9E8800A413C4 /* Lulo-technical-testTests */,
-				8060FACB290C9E8800A413C4 /* Lulo-technical-testUITests */,
+				8060FAC1290C9E8800A413C4 /* UnitTests */,
 				8060FAAE290C9E8700A413C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +147,6 @@
 			children = (
 				8060FAAD290C9E8700A413C4 /* Lulo-technical-test.app */,
 				8060FABE290C9E8800A413C4 /* Lulo-technical-testTests.xctest */,
-				8060FAC8290C9E8800A413C4 /* Lulo-technical-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +154,23 @@
 		8060FAAF290C9E8700A413C4 /* Lulo-technical-test */ = {
 			isa = PBXGroup;
 			children = (
+				8060FB21290CB80D00A413C4 /* LottieFiles */,
+				8060FB04290CB09400A413C4 /* Interactors */,
+				8060FB01290CAFF700A413C4 /* ViewModels */,
+				8060FAFE290CAC9A00A413C4 /* Components */,
+				8060FAFB290CABBF00A413C4 /* Views */,
+				8060FAF8290CAA5600A413C4 /* DI */,
+				8060FAF3290CA44B00A413C4 /* Protocols */,
+				8060FAF0290CA3B200A413C4 /* Repositories */,
+				8060FAE4290CA08D00A413C4 /* Models */,
+				8060FAE1290C9FBE00A413C4 /* Extensions */,
+				8060FADE290C9F6A00A413C4 /* Service */,
 				8060FAB0290C9E8700A413C4 /* Lulo_technical_testApp.swift */,
-				8060FAB2290C9E8700A413C4 /* ContentView.swift */,
 				8060FAB4290C9E8800A413C4 /* Assets.xcassets */,
 				8060FAB6290C9E8800A413C4 /* Lulo_technical_test.entitlements */,
 				8060FAB7290C9E8800A413C4 /* Preview Content */,
+				8060FAF6290CA7CF00A413C4 /* Constants.swift */,
+				8060FB1D290CB4A000A413C4 /* Utils.swift */,
 			);
 			path = "Lulo-technical-test";
 			sourceTree = "<group>";
@@ -112,21 +183,164 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8060FAC1290C9E8800A413C4 /* Lulo-technical-testTests */ = {
+		8060FAC1290C9E8800A413C4 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				8060FAC2290C9E8800A413C4 /* Lulo_technical_testTests.swift */,
+				80BF6594290EDE1B001744C5 /* ViewModels */,
+				80BF6591290EDBDE001744C5 /* Interactors */,
+				80BF658A290ED377001744C5 /* Stubs */,
+				80BF6587290ED2A9001744C5 /* Repositories */,
+				80BF6584290ED1D0001744C5 /* Mocks */,
+				80BF658D290ED4C5001744C5 /* TestsConstants.swift */,
 			);
-			path = "Lulo-technical-testTests";
+			path = UnitTests;
 			sourceTree = "<group>";
 		};
-		8060FACB290C9E8800A413C4 /* Lulo-technical-testUITests */ = {
+		8060FADE290C9F6A00A413C4 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				8060FACC290C9E8800A413C4 /* Lulo_technical_testUITests.swift */,
-				8060FACE290C9E8800A413C4 /* Lulo_technical_testUITestsLaunchTests.swift */,
+				8060FADF290C9F8900A413C4 /* NetworkService.swift */,
+				8060FAE9290CA10D00A413C4 /* NetworkServiceType.swift */,
 			);
-			path = "Lulo-technical-testUITests";
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8060FAE1290C9FBE00A413C4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAE2290C9FE500A413C4 /* URLSession+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8060FAE4290CA08D00A413C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAE5290CA0A400A413C4 /* APIRequest.swift */,
+				8060FAE7290CA0CA00A413C4 /* APIContentType.swift */,
+				8060FAEB290CA26E00A413C4 /* Pokemon.swift */,
+				8060FB09290CB13700A413C4 /* GenerationParams.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8060FAF0290CA3B200A413C4 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAF1290CA3C200A413C4 /* PokemonRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		8060FAF3290CA44B00A413C4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAF4290CA45E00A413C4 /* PokemonRepositoryType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8060FAF8290CAA5600A413C4 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAF9290CAA8600A413C4 /* App+Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		8060FAFB290CABBF00A413C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAFC290CABD600A413C4 /* GenerationsView.swift */,
+				8060FB0B290CB2D000A413C4 /* PokemonsView.swift */,
+				8060FB24290CB9B600A413C4 /* PokemonDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8060FAFE290CAC9A00A413C4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8060FAFF290CACA600A413C4 /* GenerationCell.swift */,
+				8060FB0D290CB33C00A413C4 /* LoadingView.swift */,
+				8060FB0F290CB35B00A413C4 /* LottieView.swift */,
+				8060FB14290CB3E200A413C4 /* ErrorView.swift */,
+				8060FB19290CB46B00A413C4 /* PokemonCell.swift */,
+				8060FB1F290CB50400A413C4 /* PokemonSmallImage.swift */,
+				8060FB26290CBA0800A413C4 /* PokemonLargeImage.swift */,
+				8060FB28290CBA3000A413C4 /* PokemonGeneralInfo.swift */,
+				8060FB2A290CBA6800A413C4 /* PokemonMoves.swift */,
+				8060FB2C290CBA8800A413C4 /* PokemonStats.swift */,
+				8060FB2E290CCC2500A413C4 /* LargePokemonCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8060FB01290CAFF700A413C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8060FB02290CB01400A413C4 /* PokemonsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8060FB04290CB09400A413C4 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				8060FB05290CB0AB00A413C4 /* GetPokemonsInteractor.swift */,
+				8060FB07290CB0E900A413C4 /* AnyInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		8060FB21290CB80D00A413C4 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8060FB22290CB87300A413C4 /* loading.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		80BF6584290ED1D0001744C5 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				80BF6585290ED224001744C5 /* NetworkServiceMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		80BF6587290ED2A9001744C5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				80BF6588290ED30D001744C5 /* PokemonRepositoryTest.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		80BF658A290ED377001744C5 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				80BF658B290ED388001744C5 /* NetworkServiceStub.swift */,
+				80BF658F290EDB47001744C5 /* PokemonRepositoryStub.swift */,
+				80BF6597290EDE99001744C5 /* GetPokemonsInteractorStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		80BF6591290EDBDE001744C5 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				80BF6592290EDC0D001744C5 /* GetPokemonsInteractorTest.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		80BF6594290EDE1B001744C5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				80BF6595290EDE44001744C5 /* PokemonsViewModelTest.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +359,12 @@
 			dependencies = (
 			);
 			name = "Lulo-technical-test";
+			packageProductDependencies = (
+				8060FADC290C9F0600A413C4 /* Alamofire */,
+				8060FAEE290CA34D00A413C4 /* Resolver */,
+				8060FB12290CB3B900A413C4 /* Lottie */,
+				8060FB17290CB45300A413C4 /* Kingfisher */,
+			);
 			productName = "Lulo-technical-test";
 			productReference = 8060FAAD290C9E8700A413C4 /* Lulo-technical-test.app */;
 			productType = "com.apple.product-type.application";
@@ -167,24 +387,6 @@
 			productReference = 8060FABE290C9E8800A413C4 /* Lulo-technical-testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8060FAC7290C9E8800A413C4 /* Lulo-technical-testUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8060FAD8290C9E8800A413C4 /* Build configuration list for PBXNativeTarget "Lulo-technical-testUITests" */;
-			buildPhases = (
-				8060FAC4290C9E8800A413C4 /* Sources */,
-				8060FAC5290C9E8800A413C4 /* Frameworks */,
-				8060FAC6290C9E8800A413C4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8060FACA290C9E8800A413C4 /* PBXTargetDependency */,
-			);
-			name = "Lulo-technical-testUITests";
-			productName = "Lulo-technical-testUITests";
-			productReference = 8060FAC8290C9E8800A413C4 /* Lulo-technical-testUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,10 +404,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = 8060FAAC290C9E8700A413C4;
 					};
-					8060FAC7290C9E8800A413C4 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 8060FAAC290C9E8700A413C4;
-					};
 				};
 			};
 			buildConfigurationList = 8060FAA8290C9E8700A413C4 /* Build configuration list for PBXProject "Lulo-technical-test" */;
@@ -217,13 +415,18 @@
 				Base,
 			);
 			mainGroup = 8060FAA4290C9E8700A413C4;
+			packageReferences = (
+				8060FADB290C9F0600A413C4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8060FAED290CA34D00A413C4 /* XCRemoteSwiftPackageReference "Resolver" */,
+				8060FB11290CB3B900A413C4 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				8060FB16290CB45300A413C4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 8060FAAE290C9E8700A413C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8060FAAC290C9E8700A413C4 /* Lulo-technical-test */,
 				8060FABD290C9E8800A413C4 /* Lulo-technical-testTests */,
-				8060FAC7290C9E8800A413C4 /* Lulo-technical-testUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,17 +438,11 @@
 			files = (
 				8060FAB9290C9E8800A413C4 /* Preview Assets.xcassets in Resources */,
 				8060FAB5290C9E8800A413C4 /* Assets.xcassets in Resources */,
+				8060FB23290CB87300A413C4 /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8060FABC290C9E8800A413C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8060FAC6290C9E8800A413C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,8 +456,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8060FAB3290C9E8700A413C4 /* ContentView.swift in Sources */,
+				8060FB2B290CBA6800A413C4 /* PokemonMoves.swift in Sources */,
+				8060FB0C290CB2D000A413C4 /* PokemonsView.swift in Sources */,
+				8060FAE3290C9FE500A413C4 /* URLSession+Extension.swift in Sources */,
+				8060FB08290CB0E900A413C4 /* AnyInteractor.swift in Sources */,
+				8060FAFA290CAA8600A413C4 /* App+Injection.swift in Sources */,
+				8060FB2F290CCC2500A413C4 /* LargePokemonCell.swift in Sources */,
+				8060FB15290CB3E200A413C4 /* ErrorView.swift in Sources */,
+				8060FAF7290CA7CF00A413C4 /* Constants.swift in Sources */,
+				8060FB06290CB0AB00A413C4 /* GetPokemonsInteractor.swift in Sources */,
+				8060FB25290CB9B600A413C4 /* PokemonDetail.swift in Sources */,
+				8060FAFD290CABD600A413C4 /* GenerationsView.swift in Sources */,
+				8060FB29290CBA3000A413C4 /* PokemonGeneralInfo.swift in Sources */,
+				8060FB10290CB35B00A413C4 /* LottieView.swift in Sources */,
+				8060FB0A290CB13700A413C4 /* GenerationParams.swift in Sources */,
+				8060FAEC290CA26E00A413C4 /* Pokemon.swift in Sources */,
+				8060FB00290CACA600A413C4 /* GenerationCell.swift in Sources */,
+				8060FB03290CB01400A413C4 /* PokemonsViewModel.swift in Sources */,
+				8060FB1A290CB46B00A413C4 /* PokemonCell.swift in Sources */,
+				8060FAE0290C9F8900A413C4 /* NetworkService.swift in Sources */,
+				8060FB20290CB50400A413C4 /* PokemonSmallImage.swift in Sources */,
+				8060FB1E290CB4A000A413C4 /* Utils.swift in Sources */,
+				8060FAE6290CA0A400A413C4 /* APIRequest.swift in Sources */,
+				8060FAF2290CA3C200A413C4 /* PokemonRepository.swift in Sources */,
+				8060FAEA290CA10D00A413C4 /* NetworkServiceType.swift in Sources */,
+				8060FB2D290CBA8800A413C4 /* PokemonStats.swift in Sources */,
+				8060FAE8290CA0CA00A413C4 /* APIContentType.swift in Sources */,
 				8060FAB1290C9E8700A413C4 /* Lulo_technical_testApp.swift in Sources */,
+				8060FB0E290CB33C00A413C4 /* LoadingView.swift in Sources */,
+				8060FAF5290CA45E00A413C4 /* PokemonRepositoryType.swift in Sources */,
+				8060FB27290CBA0800A413C4 /* PokemonLargeImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +493,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8060FAC3290C9E8800A413C4 /* Lulo_technical_testTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8060FAC4290C9E8800A413C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8060FACF290C9E8800A413C4 /* Lulo_technical_testUITestsLaunchTests.swift in Sources */,
-				8060FACD290C9E8800A413C4 /* Lulo_technical_testUITests.swift in Sources */,
+				80BF658C290ED388001744C5 /* NetworkServiceStub.swift in Sources */,
+				80BF6586290ED224001744C5 /* NetworkServiceMock.swift in Sources */,
+				80BF658E290ED4C5001744C5 /* TestsConstants.swift in Sources */,
+				80BF6589290ED30D001744C5 /* PokemonRepositoryTest.swift in Sources */,
+				80BF6590290EDB47001744C5 /* PokemonRepositoryStub.swift in Sources */,
+				80BF6596290EDE44001744C5 /* PokemonsViewModelTest.swift in Sources */,
+				80BF6593290EDC0D001744C5 /* GetPokemonsInteractorTest.swift in Sources */,
+				80BF6598290EDE99001744C5 /* GetPokemonsInteractorStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +511,6 @@
 			isa = PBXTargetDependency;
 			target = 8060FAAC290C9E8700A413C4 /* Lulo-technical-test */;
 			targetProxy = 8060FABF290C9E8800A413C4 /* PBXContainerItemProxy */;
-		};
-		8060FACA290C9E8800A413C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8060FAAC290C9E8700A413C4 /* Lulo-technical-test */;
-			targetProxy = 8060FAC9290C9E8800A413C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,8 +645,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -437,10 +655,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,8 +685,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -475,10 +695,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -497,10 +719,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lulo-technical-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lulo-technical-test";
 			};
 			name = Debug;
@@ -520,55 +744,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lulo-technical-test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lulo-technical-test";
-			};
-			name = Release;
-		};
-		8060FAD9290C9E8800A413C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2SGR54S8C2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Lulo-technical-test";
-			};
-			name = Debug;
-		};
-		8060FADA290C9E8800A413C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2SGR54S8C2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cristopherescorcia.Lulo-technical-testUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Lulo-technical-test";
 			};
 			name = Release;
 		};
@@ -602,16 +784,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8060FAD8290C9E8800A413C4 /* Build configuration list for PBXNativeTarget "Lulo-technical-testUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8060FAD9290C9E8800A413C4 /* Debug */,
-				8060FADA290C9E8800A413C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8060FADB290C9F0600A413C4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8060FAED290CA34D00A413C4 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8060FB11290CB3B900A413C4 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		8060FB16290CB45300A413C4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8060FADC290C9F0600A413C4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8060FADB290C9F0600A413C4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8060FAEE290CA34D00A413C4 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8060FAED290CA34D00A413C4 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		8060FB12290CB3B900A413C4 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8060FB11290CB3B900A413C4 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		8060FB17290CB45300A413C4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8060FB16290CB45300A413C4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8060FAA5290C9E8700A413C4 /* Project object */;
 }
